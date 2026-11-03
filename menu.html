@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Browse the Spice &amp; Soul multi-cuisine menu with starters, mains, drinks and desserts.">
+  <meta name="theme-color" content="#111510">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="css/style.css">
+  <script>try { document.documentElement.dataset.theme = localStorage.getItem('spice-theme') === 'light' ? 'light' : 'dark'; } catch(e) {}</script>
+  <title>Menu | Spice &amp; Soul</title>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
+  <div class="container nav-shell">
+    <a class="brand" href="index.html" aria-label="Spice and Soul — home"><img src="assets/images/logo.svg" alt="" width="39" height="39"><span>spice<span aria-hidden="true">&amp;</span><b>soul.</b></span></a>
+    <nav id="primary-nav" class="site-nav" aria-label="Main navigation"><a href="index.html">Home</a>
+<a href="menu.html" aria-current="page">Menu</a>
+<a href="gallery.html">Gallery</a>
+<a href="booking.html">Book a table</a></nav>
+    <div class="nav-actions">
+      <button class="theme-toggle" type="button" aria-label="Switch color theme" title="Toggle light and dark mode">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.5A8.6 8.6 0 0 1 8.5 3.8 8.7 8.7 0 1 0 20.2 15.5Z"/></svg>
+      </button>
+      <a class="button button-primary nav-book" href="booking.html">Grab a table ↗</a>
+      <button class="menu-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" aria-label="Open navigation menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<main id="main-content">
+<section class="page-hero container menu-page-hero"><h1 class="display">THE GOOD <span class="ink-accent">STUFF.</span></h1><p>For the cravings, the celebrations and the “I just want a snack” moments. Your next favourite is right here.</p></section>
+<section class="section-small" aria-labelledby="menu-heading"><div class="container"><div class="section-heading"><div><span class="eyebrow">Take your pick</span><h2 class="display section-title" id="menu-heading">What are we <span class="ink-coral">having?</span></h2></div></div>
+<div class="filter-bar" role="group" aria-label="Filter menu by category"><button class="filter-button" type="button" data-filter="All" aria-pressed="true">Everything</button><button class="filter-button" type="button" data-filter="Starters" aria-pressed="false">Starters</button><button class="filter-button" type="button" data-filter="Mains" aria-pressed="false">Mains</button><button class="filter-button" type="button" data-filter="Drinks" aria-pressed="false">Drinks</button><button class="filter-button" type="button" data-filter="Desserts" aria-pressed="false">Desserts</button></div>
+<div class="menu-table-wrap"><table class="menu-table"><caption>Spice &amp; Soul food and drink menu.</caption><thead><tr><th scope="col">Dish</th><th scope="col">The lowdown</th><th scope="col">Type</th><th scope="col">Price</th></tr></thead><tbody><tr class="group-row" data-category="Starters"><th colspan="4" scope="rowgroup">01 / STARTERS</th></tr><tr class="menu-data-row" data-category="Starters"><td class="menu-item">Crispy Chilli Potatoes</td><td class="description">Crispy potatoes, chilli glaze, sesame</td><td><span class="mini-tag">Veg</span></td><td class="menu-price">₹189</td></tr><tr class="menu-data-row" data-category="Starters"><td class="menu-item">Loaded Nacho Madness</td><td class="description">Cheese sauce, jalapeños, salsa, sour cream</td><td><span class="mini-tag">Veg</span></td><td class="menu-price">₹249</td></tr><tr class="menu-data-row" data-category="Starters"><td class="menu-item">Korean Popcorn Chicken</td><td class="description">Sticky gochujang glaze, crunchy bites</td><td><span class="mini-tag">Non-veg</span></td><td class="menu-price">₹279</td></tr><tr class="group-row" data-category="Mains"><th colspan="4" scope="rowgroup">02 / MAINS</th></tr><tr class="menu-data-row" data-category="Mains"><td class="menu-item">The Big Mood Burger</td><td class="description">Toasted bun, house sauce, melty cheese, fries</td><td><span class="mini-tag">Non-veg</span></td><td class="menu-price">₹299</td></tr><tr class="menu-data-row" data-category="Mains"><td class="menu-item">Midnight Mac</td><td class="description">Creamy pasta, garlic crumbs, herb chilli oil</td><td><span class="mini-tag">Veg</span></td><td class="menu-price">₹329</td></tr><tr class="menu-data-row" data-category="Mains"><td class="menu-item">Hot Honey Pizza</td><td class="description">12-inch pizza, mozzarella, hot honey drizzle</td><td><span class="mini-tag">Veg</span></td><td class="menu-price">₹399</td></tr><tr class="menu-data-row" data-category="Mains"><td class="menu-item">Spice Route Rice Bowl</td><td class="description">Fragrant rice, wok vegetables, chilli tofu</td><td><span class="mini-tag">Veg</span></td><td class="menu-price">₹319</td></tr><tr class="menu-data-row" data-category="Mains"><td class="menu-item">Street Style Tacos</td><td class="description">Three soft tacos, crunchy slaw, chipotle sauce</td><td><span class="mini-tag">Veg</span></td><td class="menu-price">₹289</td></tr><tr class="group-row" data-category="Drinks"><th colspan="4" scope="rowgroup">03 / DRINKS</th></tr><tr class="menu-data-row" data-category="Drinks"><td class="menu-item">Sunset Fizz</td><td class="description">Orange, mint, lime, soda</td><td><span class="mini-tag">Mocktail</span></td><td class="menu-price">₹179</td></tr><tr class="menu-data-row" data-category="Drinks"><td class="menu-item">Berry Main Character</td><td class="description">Mixed berry cooler, basil, sparkling water</td><td><span class="mini-tag">Mocktail</span></td><td class="menu-price">₹199</td></tr><tr class="menu-data-row" data-category="Drinks"><td class="menu-item">Iced Mocha</td><td class="description">Cold coffee, chocolate, frothy milk</td><td><span class="mini-tag">Coffee</span></td><td class="menu-price">₹189</td></tr><tr class="group-row" data-category="Desserts"><th colspan="4" scope="rowgroup">04 / DESSERTS</th></tr><tr class="menu-data-row" data-category="Desserts"><td class="menu-item">Drama Queen Brownie</td><td class="description">Warm chocolate brownie, vanilla ice cream</td><td><span class="mini-tag">Veg</span></td><td class="menu-price">₹219</td></tr><tr class="menu-data-row" data-category="Desserts"><td class="menu-item">Cloud Nine Cheesecake</td><td class="description">Baked cheesecake with berry compote</td><td><span class="mini-tag">Veg</span></td><td class="menu-price">₹249</td></tr></tbody></table></div>
+<div class="menu-special"><div class="photo-wrap"><img src="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?auto=format&amp;fit=crop&amp;w=1000&amp;q=82" data-fallback="assets/images/tacos.svg" alt="Three tacos filled with fresh toppings and vegetables" loading="lazy" decoding="async"></div><div class="menu-special-content"><span class="eyebrow">Our little obsession</span><h2 class="display">SAY YES <span class="ink-accent">TO TACOS.</span></h2><p>Big crunch, fresh fillings, and just enough heat. The kind of dish you come back for.</p><a href="booking.html" class="button button-primary">Book a table ↗</a></div></div>
+</div></section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-main">
+    <div class="footer-brand">
+      <a class="brand" href="index.html"><img src="assets/images/logo.svg" alt="" width="39" height="39"><span>spice&amp;<b>soul.</b></span></a>
+      <p>Flavour without the fuss. A little chaotic, a lot delicious. Come hungry, leave happy.</p>
+      <span class="pill pill-soft">Good food · Good people · Good vibes</span>
+    </div>
+    <div>
+      <h2 class="footer-heading">Explore</h2>
+      <nav class="footer-links" aria-label="Footer navigation"><a href="index.html">Home</a><a href="menu.html">Our menu</a><a href="gallery.html">Gallery</a><a href="booking.html">Book a table</a></nav>
+    </div>
+    <div>
+      <h2 class="footer-heading">Come say hi</h2>
+      <div class="footer-links"><span>Venue: Koregaon Park, Pune</span><span>Every day · 10 AM – 11 PM</span><a href="mailto:hello@spiceandsoul.example">hello@spiceandsoul.example</a><a href="booking.html#find-us">Find us on the map ↗</a></div>
+    </div>
+  </div>
+  <div class="container footer-bottom"><span>© <span data-year>2026</span> Spice &amp; Soul</span></div>
+</footer>
+<button class="back-to-top" type="button" title="Back to top" aria-label="Back to top">↑</button>
+<script src="js/main.js" defer></script>
+</body>
+</html>
