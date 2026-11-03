@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Stylized mocktail illustration"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#38285e"/><stop offset="1" stop-color="#f1a88c"/></linearGradient><radialGradient id="vignette"><stop stop-color="#ffffff" stop-opacity=".06"/><stop offset="1" stop-color="#000000" stop-opacity=".15"/></radialGradient><filter id="blur"><feGaussianBlur stdDeviation="30"/></filter><filter id="shadow" x="-70%" y="-70%" width="240%" height="240%"><feDropShadow dx="0" dy="25" stdDeviation="20" flood-color="#000" flood-opacity=".24"/></filter></defs>
+<rect width="1200" height="900" fill="url(#bg)"/>
+<circle cx="1070" cy="100" r="310" fill="#ffffff" opacity=".07"/>
+<circle cx="80" cy="860" r="280" fill="#000" opacity=".11"/>
+<path d="M0 175L1200 75M-100 720L1300 610" stroke="#fff" stroke-opacity=".07" stroke-width="3"/>
+<text x="62" y="78" fill="#fff" opacity=".86" font-family="Arial, sans-serif" font-weight="bold" font-size="26" letter-spacing="4">DRINKS / GOOD VIBES</text>
+<text x="62" y="837" fill="#fff" opacity=".75" font-family="Arial, sans-serif" font-weight="bold" font-size="25" letter-spacing="2">SPICE &amp; SOUL.  ✳  THE GOOD STUFF</text>
+<g filter="url(#shadow)"><ellipse cx="580" cy="728" rx="350" ry="61" fill="#000" opacity=".22"/>
+<path d="M335 225H605L572 662Q467 701 369 660Z" fill="#efffff" opacity=".67" stroke="#e6fffa" stroke-width="13"/>
+<path d="M364 329H580L556 638Q476 664 396 634Z" fill="#f58d54" opacity=".94"/>
+<path d="M385 475h177M403 553h148" stroke="#fff" stroke-opacity=".23" stroke-width="19"/>
+<path d="M425 170L482 390" stroke="#97f58c" stroke-width="22" stroke-linecap="round"/>
+<circle cx="556" cy="260" r="83" fill="#ffce69" stroke="#fff3c4" stroke-width="15"/><circle cx="556" cy="260" r="45" fill="#ef7564"/><path d="M556 185v150M482 260h149M506 208l105 105M506 313l105-105" stroke="#ffe7a2" stroke-width="7"/>
+<path d="M656 310H875L843 665Q758 704 684 664Z" fill="#e7fffc" opacity=".65" stroke="#e7fffc" stroke-width="12"/>
+<path d="M682 404H847L827 638Q759 666 705 635Z" fill="#aa5bd0" opacity=".95"/>
+<path d="M745 180L780 460" stroke="#fff1a6" stroke-width="17" stroke-linecap="round"/>
+<circle cx="812" cy="322" r="67" fill="#fd85a6" stroke="#ffd0dc" stroke-width="11"/><circle cx="812" cy="322" r="41" fill="#d44e86"/>
+<path d="M812 260v125M748 322h126" stroke="#ffd3e0" stroke-width="5"/>
+</g><rect width="1200" height="900" fill="url(#vignette)" pointer-events="none"/></svg>

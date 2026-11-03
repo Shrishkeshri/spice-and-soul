@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Stylized burger illustration"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#392264"/><stop offset="1" stop-color="#e97468"/></linearGradient><radialGradient id="vignette"><stop stop-color="#ffffff" stop-opacity=".06"/><stop offset="1" stop-color="#000000" stop-opacity=".15"/></radialGradient><filter id="blur"><feGaussianBlur stdDeviation="30"/></filter><filter id="shadow" x="-70%" y="-70%" width="240%" height="240%"><feDropShadow dx="0" dy="25" stdDeviation="20" flood-color="#000" flood-opacity=".24"/></filter></defs>
+<rect width="1200" height="900" fill="url(#bg)"/>
+<circle cx="1070" cy="100" r="310" fill="#ffffff" opacity=".07"/>
+<circle cx="80" cy="860" r="280" fill="#000" opacity=".11"/>
+<path d="M0 175L1200 75M-100 720L1300 610" stroke="#fff" stroke-opacity=".07" stroke-width="3"/>
+<text x="62" y="78" fill="#fff" opacity=".86" font-family="Arial, sans-serif" font-weight="bold" font-size="26" letter-spacing="4">BURGERS / BIG ENERGY</text>
+<text x="62" y="837" fill="#fff" opacity=".75" font-family="Arial, sans-serif" font-weight="bold" font-size="25" letter-spacing="2">SPICE &amp; SOUL.  ✳  THE GOOD STUFF</text>
+<g filter="url(#shadow)" transform="translate(130 45)">
+<ellipse cx="470" cy="685" rx="365" ry="75" fill="#1c1a2b" opacity=".45"/>
+<path d="M210 530C195 500 205 475 242 472H715C760 472 773 505 751 535L721 587H246Z" fill="#e8a64d" stroke="#c97932" stroke-width="13"/>
+<path d="M203 468C184 447 206 418 230 410H734C766 410 784 443 757 466Z" fill="#be5c41"/>
+<path d="M203 398Q260 369 312 403T425 395T536 401T645 388T750 401L742 430H220Z" fill="#a5d55a" stroke="#73983b" stroke-width="8"/>
+<path d="M220 383L250 356H717L749 380L721 415H255Z" fill="#ffd44d"/>
+<rect x="215" y="328" width="525" height="42" rx="18" fill="#673a25"/>
+<path d="M199 333C196 240 282 170 474 160C680 155 750 244 753 332Z" fill="#f4b65a" stroke="#d78c3f" stroke-width="10"/>
+<path d="M284 253l-14 8m120-30l-13 10m89-32l-11 12m104-5l-15 10m99 22l-12 11m-257 22l-14 6m199-1l-15 6" stroke="#fff4b9" stroke-width="10" stroke-linecap="round"/>
+</g><g transform="translate(20 280) rotate(-12 155 150)"><path d="M90 180L280 180 260 385 110 385Z" fill="#ef6548" stroke="#bb3e39" stroke-width="10"/><path d="M105 195V90H130V191M138 191V57H161V191M176 191V80H202V191M210 191V60H238V191M246 191V113H270V191" stroke="#ffcb62" stroke-width="24" stroke-linecap="round"/><text x="135" y="312" font-size="62" fill="#fff3ce" font-weight="bold" font-family="Arial">S&amp;S</text></g><rect width="1200" height="900" fill="url(#vignette)" pointer-events="none"/></svg>

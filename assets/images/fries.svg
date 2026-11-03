@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Stylized fries illustration"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#372d50"/><stop offset="1" stop-color="#ff8b56"/></linearGradient><radialGradient id="vignette"><stop stop-color="#ffffff" stop-opacity=".06"/><stop offset="1" stop-color="#000000" stop-opacity=".15"/></radialGradient><filter id="blur"><feGaussianBlur stdDeviation="30"/></filter><filter id="shadow" x="-70%" y="-70%" width="240%" height="240%"><feDropShadow dx="0" dy="25" stdDeviation="20" flood-color="#000" flood-opacity=".24"/></filter></defs>
+<rect width="1200" height="900" fill="url(#bg)"/>
+<circle cx="1070" cy="100" r="310" fill="#ffffff" opacity=".07"/>
+<circle cx="80" cy="860" r="280" fill="#000" opacity=".11"/>
+<path d="M0 175L1200 75M-100 720L1300 610" stroke="#fff" stroke-opacity=".07" stroke-width="3"/>
+<text x="62" y="78" fill="#fff" opacity=".86" font-family="Arial, sans-serif" font-weight="bold" font-size="26" letter-spacing="4">SIDES / ALL THE CRUNCH</text>
+<text x="62" y="837" fill="#fff" opacity=".75" font-family="Arial, sans-serif" font-weight="bold" font-size="25" letter-spacing="2">SPICE &amp; SOUL.  ✳  THE GOOD STUFF</text>
+<g filter="url(#shadow)" transform="translate(80 -15)"><ellipse cx="535" cy="728" rx="300" ry="72" fill="#1c1c29" opacity=".35"/>
+<g stroke="#ffcd60" stroke-linecap="round" stroke-width="39"><path d="M325 490L290 191"/><path d="M385 466L380 151"/><path d="M449 479L479 182"/><path d="M512 464L541 151"/><path d="M574 463L616 202"/><path d="M636 465L683 150"/><path d="M684 493L756 217"/></g>
+<path d="M258 392L770 392L694 708H341Z" fill="#f4584b" stroke="#c83c3d" stroke-width="16"/>
+<path d="M272 413Q516 528 756 416" fill="none" stroke="#ff9975" stroke-width="12"/>
+<circle cx="514" cy="576" r="87" fill="#ffcb68"/><text x="448" y="602" font-family="Arial" font-size="58" font-weight="900" fill="#322a37">S&amp;S</text></g><rect width="1200" height="900" fill="url(#vignette)" pointer-events="none"/></svg>
