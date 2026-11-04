@@ -1,0 +1,8 @@
+# Plain static HTML/CSS/JS site — no build step.
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
